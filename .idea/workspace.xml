@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f769c4c8-4615-4d5b-9550-c40730e7097e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="EmployeePost" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +34,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2bjEteCRYHr0eOQdnACscrPptDG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
@@ -48,53 +47,85 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;EmployeePost&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PlaceholdderPost&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.employeeDefaultValuePost">
-    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JsonPlaceholderTest">
+    <configuration name="JsonPlaceholderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConnectingToGitHub" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="employee.*" />
+          <option name="PATTERN" value="jsonplaceholder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="employee" />
-      <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
+      <option name="PACKAGE_NAME" value="jsonplaceholder" />
+      <option name="MAIN_CLASS_NAME" value="jsonplaceholder.JsonPlaceholderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.employeeDefaultValuePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonPlaceholderTest.jsonPlaceholderDefaultValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConnectingToGitHub" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="employee.*" />
+          <option name="PATTERN" value="jsonplaceholder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="employee" />
-      <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
-      <option name="METHOD_NAME" value="employeeDefaultValuePost" />
+      <option name="PACKAGE_NAME" value="jsonplaceholder" />
+      <option name="MAIN_CLASS_NAME" value="jsonplaceholder.JsonPlaceholderTest" />
+      <option name="METHOD_NAME" value="jsonPlaceholderDefaultValuesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.employeeRequestPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonPlaceholderTest.jsonPlaceholderValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConnectingToGitHub" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="employee.*" />
+          <option name="PATTERN" value="jsonplaceholder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="employee" />
-      <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
-      <option name="METHOD_NAME" value="employeeRequestPost" />
+      <option name="PACKAGE_NAME" value="jsonplaceholder" />
+      <option name="MAIN_CLASS_NAME" value="jsonplaceholder.JsonPlaceholderTest" />
+      <option name="METHOD_NAME" value="jsonPlaceholderValuesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonPlaceholderTest.postIsonPlaceholderDefaultValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectingToGitHub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jsonplaceholder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jsonplaceholder" />
+      <option name="MAIN_CLASS_NAME" value="jsonplaceholder.JsonPlaceholderTest" />
+      <option name="METHOD_NAME" value="postIsonPlaceholderDefaultValuesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonPlaceholderTest.postJsonPlaceholderValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectingToGitHub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jsonplaceholder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jsonplaceholder" />
+      <option name="MAIN_CLASS_NAME" value="jsonplaceholder.JsonPlaceholderTest" />
+      <option name="METHOD_NAME" value="postJsonPlaceholderValuesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeTest.employeeDefaultValuePost" />
-        <item itemvalue="JUnit.EmployeeTest.employeeRequestPost" />
-        <item itemvalue="JUnit.EmployeeTest" />
-        <item itemvalue="JUnit.EmployeeTest.employeeRequestPost" />
-        <item itemvalue="JUnit.EmployeeTest.employeeDefaultValuePost" />
+        <item itemvalue="JUnit.JsonPlaceholderTest" />
+        <item itemvalue="JUnit.JsonPlaceholderTest.postJsonPlaceholderValuesTest" />
+        <item itemvalue="JUnit.JsonPlaceholderTest.postIsonPlaceholderDefaultValuesTest" />
+        <item itemvalue="JUnit.JsonPlaceholderTest.jsonPlaceholderDefaultValuesTest" />
+        <item itemvalue="JUnit.JsonPlaceholderTest.jsonPlaceholderValuesTest" />
       </list>
     </recent_temporary>
   </component>
