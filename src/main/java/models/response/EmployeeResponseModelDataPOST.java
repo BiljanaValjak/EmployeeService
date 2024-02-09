@@ -9,12 +9,11 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class EmployeeResponseDataModelPOST {
-
+public class EmployeeResponseModelDataPOST {
 
     String name;
     String salary;
     String age;
-    String id;
+    int id;
 
 }
