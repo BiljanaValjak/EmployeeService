@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f769c4c8-4615-4d5b-9550-c40730e7097e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/EmployeeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/EmployeeDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/EmployeeDataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/request/EmployeeRequestModelPOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/request/EmployeeRequestModelPOSTPUT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/response/EmployeeResponseDataModelPOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/response/EmployeeResponseModelDataPOST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/response/EmployeeResponseModelPOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/response/EmployeeResponseModelPOSTPUT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mother/EmployeeMother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mother/EmployeeMother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/employee/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/employee/EmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2bjEteCRYHr0eOQdnACscrPptDG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
@@ -48,12 +55,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;EmployeePost&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;EmployeeService&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.employeeDefaultValuePost">
-    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmployeeTest.postEmployeeRequestTest">
+    <configuration name="EmployeeTest.deleteEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConnectingToGitHub" />
       <extension name="coverage">
         <pattern>
@@ -63,28 +70,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="employee" />
       <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeTest.employeeDefaultValuePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ConnectingToGitHub" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="employee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="employee" />
-      <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
-      <option name="METHOD_NAME" value="employeeDefaultValuePost" />
+      <option name="METHOD_NAME" value="deleteEmployeeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest.employeeRequestPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeTest.getByIdEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConnectingToGitHub" />
       <extension name="coverage">
         <pattern>
@@ -94,7 +86,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="employee" />
       <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
-      <option name="METHOD_NAME" value="employeeRequestPost" />
+      <option name="METHOD_NAME" value="getByIdEmployeeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.postEmployeeDefaultValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectingToGitHub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="employee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="employee" />
+      <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
+      <option name="METHOD_NAME" value="postEmployeeDefaultValueTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.postEmployeeRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectingToGitHub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="employee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="employee" />
+      <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
+      <option name="METHOD_NAME" value="postEmployeeRequestTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.updateEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConnectingToGitHub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="employee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="employee" />
+      <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
+      <option name="METHOD_NAME" value="updateEmployeeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeTest.employeeDefaultValuePost" />
-        <item itemvalue="JUnit.EmployeeTest.employeeRequestPost" />
-        <item itemvalue="JUnit.EmployeeTest" />
-        <item itemvalue="JUnit.EmployeeTest.employeeRequestPost" />
-        <item itemvalue="JUnit.EmployeeTest.employeeDefaultValuePost" />
+        <item itemvalue="JUnit.EmployeeTest.postEmployeeRequestTest" />
+        <item itemvalue="JUnit.EmployeeTest.deleteEmployeeTest" />
+        <item itemvalue="JUnit.EmployeeTest.postEmployeeDefaultValueTest" />
+        <item itemvalue="JUnit.EmployeeTest.getByIdEmployeeTest" />
+        <item itemvalue="JUnit.EmployeeTest.updateEmployeeTest" />
       </list>
     </recent_temporary>
   </component>

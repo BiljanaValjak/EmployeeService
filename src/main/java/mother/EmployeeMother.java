@@ -1,11 +1,11 @@
 package mother;
 
-import models.request.EmployeeRequestModelPOST;
+import models.request.EmployeeRequestModelPOSTPUT;
 
 public class EmployeeMother {
 
-    public static EmployeeRequestModelPOST createBodyForEmployeePost(){
-        return EmployeeRequestModelPOST.builder()
+    public static EmployeeRequestModelPOSTPUT createBodyForEmployeePost(){
+        return EmployeeRequestModelPOSTPUT.builder()
                 .name("Default name")
                 .salary("Default salary")
                 .age("Default age")

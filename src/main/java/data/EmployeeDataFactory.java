@@ -1,12 +1,12 @@
 package data;
 
-import models.request.EmployeeRequestModelPOST;
+import models.request.EmployeeRequestModelPOSTPUT;
 
 public class EmployeeDataFactory {
 
-    private EmployeeRequestModelPOST request;
+    private EmployeeRequestModelPOSTPUT request;
 
-    public EmployeeDataFactory(EmployeeRequestModelPOST requestBody){
+    public EmployeeDataFactory(EmployeeRequestModelPOSTPUT requestBody){
         request = requestBody;
     }
     public EmployeeDataFactory setName(String value){
@@ -23,7 +23,7 @@ public class EmployeeDataFactory {
         return this;
     }
 
-    public EmployeeRequestModelPOST createRequest(){
+    public EmployeeRequestModelPOSTPUT createRequest(){
         return request;
     }
 }
